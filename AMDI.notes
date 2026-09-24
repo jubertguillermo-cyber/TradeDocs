@@ -1,0 +1,15 @@
+3eIKFhAHadP1CKv64kfjbMqCsdMPlMglBXzRdCK1SAmKva8PMLYhJQQJ99CIACL93NaXJ3w3AAALACOGOSYC
+
+https://sandboxadi.cognitiveservices.azure.com/
+
+https://github.com/jubertguillermo-cyber/TradeDocs/blob/main/ILCCombined-20260615.pdf
+
+https://raw.githubusercontent.com/jubertguillermo-cyber/TradeDocs/main/ILCCombined-20260615.pdf
+
+LCAppCombinedModel
+
+
+curl -v -i -X POST "https://sandboxadi.cognitiveservices.azure.com/documentintelligence/documentModels/LCAppCombinedModel:analyze?api-version=2024-11-30" -H "Content-Type: application/json" -H "Ocp-Apim-Subscription-Key: 3eIKFhAHadP1CKv64kfjbMqCsdMPlMglBXzRdCK1SAmKva8PMLYhJQQJ99CIACL93NaXJ3w3AAALACOGOSYC" --data-ascii "{'urlSource': 'https://raw.githubusercontent.com/jubertguillermo-cyber/TradeDocs/main/ILCCombined-20260615.pdf'}"
+
+
+curl -v -X GET "https://sandboxadi.cognitiveservices.azure.com/documentintelligence/documentModels/LCAppCombinedModel/analyzeResults/7700cff6-7581-424f-86be-e5d3f1cc01be?api-version=2024-11-30" -H "Ocp-Apim-Subscription-Key: 3eIKFhAHadP1CKv64kfjbMqCsdMPlMglBXzRdCK1SAmKva8PMLYhJQQJ99CIACL93NaXJ3w3AAALACOGOSYC"
